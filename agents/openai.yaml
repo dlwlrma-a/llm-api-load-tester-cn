@@ -1,0 +1,9 @@
+interface:
+  display_name: "模型 API 并发压测器"
+  short_description: "测试 OpenAI 兼容接口的并发、限流、延迟与 Token 吞吐"
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/icon.png"
+  brand_color: "#C2410C"
+  default_prompt: "Use $llm-api-load-tester-cn to benchmark this OpenAI-compatible endpoint with explicit safety limits."
+policy:
+  allow_implicit_invocation: true
