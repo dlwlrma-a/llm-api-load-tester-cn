@@ -1,9 +1,9 @@
 ---
-name: llm-api-load-tester-cn
+name: 模型 API 并发压测器
 description: 对 OpenAI 兼容模型接口执行有明确上限的并发与限流基准测试，测量成功率、首字节或首 Token 延迟、完整延迟、Token 吞吐和错误分布，并生成 JSON/HTML 报告。适用于上线前容量验证、供应商 SLA 对比和 429 排查；普通接口故障诊断或未经授权的第三方压测不触发。
 slug: llm-api-load-tester-cn
 displayName: 模型 API 并发压测器
-version: 1.0.1
+version: 1.0.2
 summary: 测试 OpenAI 兼容接口的并发、限流、延迟与 Token 吞吐
 license: MIT
 ---
